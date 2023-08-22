@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#data-container {
+    display: flex;
+    flex-direction: column; /* Display movie cards in a column */
+    align-items: center;
+    margin: 20px;
+}
+
+.movie-card {
+    border: 1px solid #602a2a;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+    width: 200px; 
+}
+
+.movie-card:hover {
+    background-color: #f5f5f5;
+}
+
+#details-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-width: 80%; /* Limit the width of the modal */
+}
+
+#details-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#details-body {
+    margin-bottom: 15px;
+}
+
+#comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+#comment-list li {
+    margin-bottom: 5px;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#data-container {
+    display: flex;
+    flex-direction: column; /* Display movie cards in a column */
+    align-items: center;
+    margin: 20px;
+}
+
+.movie-card {
+    border: 1px solid #efcbcb;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px; /* Add some space between movie cards */
+    width: 200px; /* Set a fixed width for movie cards */
+}
+
+.movie-card:hover {
+    background-color: #130b0b;
+}
+
+#details-modal {
+    display: none;
+    position: absolute;
+    top: 70%; /* Adjust modal position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fadcdc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(231, 219, 219, 0.1);
+    z-index: 1000;
+    max-width: 80%; /* Limit the width of the modal */;
+}
+
+#details-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#details-body {
+    margin-bottom: 15px;
+}
+
+#comment-list {
+    list-style: none;
+    padding: 0;
+}
+
+#comment-list li {
+    margin-bottom: 5px;
+}
+
